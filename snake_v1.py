@@ -22,8 +22,6 @@ GREEN = (0, 255, 0)
 FONT1 = pygame.font.SysFont("arialblack", 20)
 FONT2 = pygame.font.SysFont("consolas", 30)
 
-
-
 # Enables game to run until user clicks 'X' at the top right of window
 quit_game = False
 while not quit_game:
