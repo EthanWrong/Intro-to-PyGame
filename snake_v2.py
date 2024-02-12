@@ -42,10 +42,10 @@ def update_grid(snake):
         # print(f"row: {row}")
         for col in range(len(grid)):
             # print(f"col: {col}")
-            for coord in snake:
-                # print(f"coord[0]: {coord[0]}, coord[1]: {coord[1]}")
-                if coord[0] == col and coord[1] == row:
-                    grid[row][col] = 1
+            if (col, row) == snake[0]:
+                grid[row][col] = 1
+            elif (col, row) in snake:
+                grid[row][col] = 2
 
     for i in grid:
         print(i)
