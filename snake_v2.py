@@ -1,5 +1,4 @@
-"""Snake - v1x1 an example of how a grid could be used to do the game. I will not continue with this strategy, as I want to
-learn the proper animation techniques etc. in PyGame
+"""Snake - v2
 by Ethan Wong"""
 
 import pygame
