@@ -1,5 +1,6 @@
 """Snake game with as many apples as you want (a specified number)
-Copied from code I made in June 2023, intended for the terminal.
+Copied from code I made Aug 22, 2023, intended for the terminal:
+ https://github.com/EthanWrong/terminal_apps/blob/main/snake.py
 
 How to run:
 1) Install curses: pip install windows-curses
