@@ -1,6 +1,11 @@
 """Snake game with as many apples as you want (a specified number)
 Copied from code I made in June 2023, intended for the terminal.
-Will use this and adapt it to pygame.
+
+How to run:
+1) Install curses: pip install windows-curses
+2) Open Terminal: Win + R, cmd, Enter
+3) Navigate to the folder: cd "<path to folder>"
+4) Run the file: python terminal_snake.py
 """
 import curses
 import time
