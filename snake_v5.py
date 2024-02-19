@@ -1,4 +1,4 @@
-"""Snake - v4
+"""Snake - v5
 by Ethan Wong"""
 
 import pygame
