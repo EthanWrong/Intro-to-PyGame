@@ -136,7 +136,7 @@ class Player:
             else:
                 self.grid.insert(0, left)
         elif self.direction == "right":
-            if right[0] > cols or right in self.grid:
+            if right[0] >= cols or right in self.grid:
                 self.alive = False
                 return
             else:
@@ -148,7 +148,7 @@ class Player:
             else:
                 self.grid.insert(0, up)
         elif self.direction == "down":
-            if down[1] > rows or down in self.grid:
+            if down[1] >= rows or down in self.grid:
                 self.alive = False
                 return
             else:
